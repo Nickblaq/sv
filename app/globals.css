@@ -1,8 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-
+@layer base {
 :root {
   --font-display: var(--font-bebas-neue);
   --font-body: var(--font-dm-sans);
@@ -17,11 +15,12 @@
 html {
   scroll-behavior: smooth;
 }
-
+  
 body {
   background: #080810;
   color: #ffffff;
   font-family: var(--font-body), sans-serif;
+}
 }
 
 .font-display {
