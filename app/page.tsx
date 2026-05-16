@@ -44,7 +44,7 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg-[#080810] text-white font-body overflow-x-hidden ">
+    <main className="min-h-screen bg-[#080810] text-white font-body overflow-x-hidden">
       <Header onLeaderboard={() => setShowLeaderboard(!showLeaderboard)} showLeaderboard={showLeaderboard} />
 
       {/* Hero */}
